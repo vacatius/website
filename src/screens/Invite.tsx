@@ -42,13 +42,13 @@ function Invite() {
 
   return (
     <div className={"container"}>
-      <h1>Hello someone has invited you to join a trip .</h1>
+      <h1>Hello someone has invited you to join a Trip.</h1>
       <Logo height={300} width={300} />
       <a
         href={decodeURIComponent(deepLink ? deepLink : "/")}
         className={"joinButton"}
       >
-        join trip
+        Join Trip
       </a>
     </div>
   );
