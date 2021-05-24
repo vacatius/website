@@ -8,6 +8,9 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/">
+          <h1>Vacatius</h1>
+        </Route>
         <Route path={Routes.INVITE}>
           <Invite />
         </Route>
