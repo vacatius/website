@@ -1,3 +1,3 @@
 export enum Routes {
-  INVITE = "/invite/:deepLink",
+  INVITE = "/invite/:deepLink?",
 }
